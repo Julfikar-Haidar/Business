@@ -1,0 +1,248 @@
+/*large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+}
+/*devices (desktops, 992px and up)*/
+@media (max-width: 991px) { 
+
+
+}
+/*devices (tablets, 768px and up)*/
+@media (max-width: 768px){
+
+    /*common title start*/
+    .common_title h1{
+        font-size: 27px;
+        
+    }
+    .common_title p{
+        font-size: 17px;
+    }
+    /*menu start*/
+    .img_size{
+        width: 150px;
+    }
+    /*banner start*/
+    .banner_content h1 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    .banner_content h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    .two{
+     padding: 6px 11px;
+     color: #ffff;
+     font-size: 20px;
+     font-weight: 400;
+     border: 1px solid #fcdb00;
+     transition: 0.5s;
+     margin-bottom: 234px;
+ }
+ /*about start*/
+ .single_one h1{
+    font-size: 17px;
+
+}
+.single_one p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+/*approch start*/
+/*left*/
+.content_right h1 {
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 29px;
+}
+.content_right p {
+    font-size: 13.5px;
+    line-height: 16px;
+}
+.size2 {
+    font-size: 16px;
+    margin-top: -14px;
+}
+.postion_ab {
+    width: 80px;
+    height: 80px;
+    left: 23%;
+    top: 20%;
+    background-color: #DE2B24;
+}
+/*right*/
+.content_right1 h1 {
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 29px;
+}
+.content_right1 p {
+    font-size: 13.5px;
+    line-height: 16px;
+}
+.size2 {
+    font-size: 16px;
+    margin-top: -14px;
+}
+.postion_ab_right {
+    width: 80px;
+    height: 80px;
+    right: 22%;
+    top: 24%;
+}
+/*facebook approch start*/
+.bubble:after {
+    left: 45%;
+}
+
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /*menu start*/
+    .img_size{
+        width: 150px;
+    }
+    /*banner start*/
+    .banner_content h1 {
+        font-size: 27px;
+        margin-top: 40px;
+    }
+    .banner_content h2 {
+       font-size: 17px;
+   }
+   .two{
+     padding: 6px 3px;
+     margin-bottom: 40px;
+ }
+ .banner_content span{
+    font-size: 16px;
+}
+/*about start*/
+#about{
+    padding: 50px 0;
+}
+.common_title h1{
+    font-size: 27px;
+    
+}
+.common_title p{
+    font-size: 17px;
+}
+.single_one h1{
+    font-size: 17px;
+
+}
+/*approch start*/
+#approch {
+    padding: 50px 0;
+}
+.resize p {
+    font-size: 11px;
+}
+.content_right {
+    padding-left: 19px;
+}
+.img_left img {
+    width: 100%;
+}
+.postion_ab{
+    display: none;
+}
+.postion_ab_right{
+    display: none;
+}
+/*gallery start*/
+#gallery{
+    padding: 50px 0;
+}
+.resize h1{
+    font-size: 24px;
+}
+/*facebook analysis start*/
+#facebook_from {
+    padding: 50px 0;
+}
+.resize2 h1 {
+    font-size: 17px;
+}
+.bubble:after {
+    left: 44%;
+}
+.p_padding {
+    padding: 15px 6px;
+}
+/*get touch start*/
+#touch {
+    padding: 50px 0;
+}
+
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 350px) { 
+
+
+    /*menu start*/
+    .img_size{
+        width: 150px;
+    }
+    /*banner start*/
+    .banner_content h1 {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    .banner_content h2 {
+       font-size: 12px;
+   }
+   .two{
+     padding: 6px 3px;
+     margin-bottom: 40px;
+ }
+ .banner_content span{
+    font-size: 16px;
+}
+/*approch start*/
+#approch {
+    padding: 50px 0;
+}
+.resize p {
+    font-size: 11px;
+}
+
+/*gallery start*/
+#gallery{
+    padding: 50px 0;
+}
+.resize h1{
+    font-size: 24px;
+}
+/*facebook analysis start*/
+#facebook_from {
+    padding: 50px 0;
+}
+.resize2 h1 {
+    font-size: 17px;
+}
+.bubble:after {
+    left: 42%;
+}
+.p_padding {
+    padding: 11px 6px;
+}
+/*get touch start*/
+#touch {
+    padding: 50px 0;
+}
+.get_icon i {
+    font-size: 12px;
+    margin: 19px 8px;
+}
+
+}
